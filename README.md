@@ -3,16 +3,18 @@ A simple go package with only one function named "Message" that write "Hello, Wo
 
 First install package with following command:
 
-    go get github.com/third-arman/go-hello-world
-
+```bash
+go get github.com/third-arman/go-hello-world
+```
 
 Then you can use it like:
 
-    package main
+```go
+package main
 
-    import "github.com/third-arman/go-hello-world"
+import "github.com/third-arman/go-hello-world"
 
-    func main() {
-        hello.Message()
-    }
-
+func main() {
+    hello.Message()
+}
+```
